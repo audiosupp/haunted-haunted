@@ -64,7 +64,6 @@ hr {
 
 p {
   margin: 1rem 0;
-  color: blue
 }
 
 li {
@@ -132,4 +131,10 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+#back_home_text {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2rem;
 }
