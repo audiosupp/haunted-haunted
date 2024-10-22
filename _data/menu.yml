@@ -2,37 +2,45 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: инфо
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: мой сайтик-блог (пока наполняю)
+      - title: github
+        url: https://github.com/audiosupp/
+      # - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
 
-  - title: all posts
+  - title: посты
     post_list:
       limit: 5
       show_more: true
       show_more_text: Архив...
       show_more_url: archive.html
 
-  - title: posts by category
-    post_list:
-      category: example
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
+  # - title: посты по категориям
+  #   post_list:
+  #     category: мысли
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: example2-archive.html
 
   - title: rss
     url: feed.xml
   
-  - title: another list
+  - title: типа меню
     entries:
-      - title: with subitems
+      - title: обо мне
         entries:
-          - title: with subsubitems
           - title: example page
             url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
+      - title: категории (они же тэги)
+        entries:
+        - title: мысли
+          post_list:
+            category: мысли
+            limit: 1
+            show_more: true
+            show_more_text: больше постов
+            show_more_url: thoughts-archive.html
+  # - title: PRO TIP
+  #   entries:
+  #     - title: to edit this menu, edit _data/menu.yml file

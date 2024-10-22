@@ -23,6 +23,9 @@ theme_config:
 sass:
   style: :compressed
 
+feed:
+  path: "https://feeds.feedburner.com/audiosupp/c9egl9cqgpy"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
