@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Обо мне
 ---
 
 This is an example page!

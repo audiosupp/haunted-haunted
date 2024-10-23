@@ -5,6 +5,12 @@ entries:
   - title: инфо
     entries:
       - title: мой сайтик-блог (пока наполняю)
+      - title: "
+          <small><i>(вечно)</i></small> начинающий разработчик с интересом в вебе, как всё устроенно, ну и там где-то ещё: музыка,
+          искусство, дизайн и всякие хобби.
+          "
+      - title: "now"
+        url: now
       - title: github
         url: https://github.com/audiosupp/
       # - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
@@ -28,19 +34,17 @@ entries:
   
   - title: типа меню
     entries:
-      - title: обо мне
+      - title: разное
         entries:
-          - title: example page
+          - title: про меня
             url: about
+          - title: проекты (будет)
+            url: projects
       - title: категории (они же тэги)
         entries:
         - title: мысли
-          post_list:
-            category: мысли
-            limit: 1
-            show_more: true
-            show_more_text: больше постов
-            show_more_url: thoughts-archive.html
+          url: thoughts-archive.html
+
   # - title: PRO TIP
   #   entries:
   #     - title: to edit this menu, edit _data/menu.yml file
