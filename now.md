@@ -9,4 +9,10 @@ title: Now
 
 Вот блог себе ещё завёл. Видели? ...А, да, вы тут же...
 
+
+
+
+
+*last time updated: 24.10.2024*
+
 Это [now](https://nownownow.com/about) страница
